@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+
+    background-color:#0817ec;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+
+form {
+
+    max-width: 600px;
+
+    margin: 0 auto;
+
+    background-color: #fff;
+
+    padding: 20px;
+
+    border-radius: 5px;
+
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+
+h2, h3 {
+
+    color: #0817ec;
+
+
+}
+
+
+form input[type=submit]{
+    width: 50%;
+    height: 40px;
+    cursor: pointer;
+    background: #5F7C8A;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    transition: 1s;
+    float: left;
+}
+form input[type=reet]{
+    width: 50%;
+    height: 40px;
+    cursor: pointer;
+    background: #5F7C8A;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    transition: 1s;
+}
+form input[type=submit]:hover{
+    background-color: #4A5F6A;
+}
+form input[type=text]:focus{
+    outline: 0;
+}
+form input[type=password]:focus{
+    outline: 0;
+}
